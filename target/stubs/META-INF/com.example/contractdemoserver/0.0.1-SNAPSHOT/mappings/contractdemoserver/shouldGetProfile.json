@@ -1,0 +1,21 @@
+{
+  "id" : "40433b43-d8ff-47d0-9f8a-1faae8ab9c6c",
+  "request" : {
+    "url" : "/test",
+    "method" : "GET",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json.*"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"cards\":[],\"id\":1001}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "40433b43-d8ff-47d0-9f8a-1faae8ab9c6c"
+}
